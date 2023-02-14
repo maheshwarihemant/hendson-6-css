@@ -49,10 +49,12 @@ body{
     text-align: center;
     background-size: contain;
     cursor: pointer;
+
+    
     
 }
 .a2:hover{
-    position: relative;
+     position: relative; 
     bottom: 10px;
 }
 .a3{
@@ -114,18 +116,46 @@ body{
     top: 40%;
     left: 5%;
 }
-@media screen and (min width:250px;) and (max width:856px;) {
+@media screen and (max-width:856px) {
     .flex{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        /* width:50% */
+        position: relative;
+        right: 60%;
+        
     }
     .l1{
         bottom: 100%;
         position: relative;
         
     }
+    .a2{
+        float: right;
+         background-size: 500px 300px;
+        
+    }
+    .a3{
+        float: right;
+        background-size: cover;
+    }
+    .a4{
+        background-size: cover;
+    }
+    .a5{
+        background-size: 500px 300px;
+    }
+    .box{
+        width: 500px;
+
+    }
+    .l2{
+        display: inline-block;
+    
+    }
+    
 
 
 
